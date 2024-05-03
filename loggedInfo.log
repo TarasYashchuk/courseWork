@@ -1,0 +1,244 @@
+2024-04-20 14:42:45 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-04-20 14:42:45 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-04-20 14:42:45 WARN  pooling:80 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-04-20 14:42:45 INFO  pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-04-20 14:42:45 INFO  pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/test6?serverTimeZone=UTC]
+2024-04-20 14:42:45 INFO  pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-04-20 14:42:45 INFO  pooling:174 - HHH10001003: Autocommit mode: false
+2024-04-20 14:42:45 INFO  pooling:366 - HHH10001115: Connection pool size: 20 (min=1)
+2024-04-20 14:42:46 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-04-20 14:42:46 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-20 14:42:46 INFO  access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@17ff8810] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-04-20 14:42:50 INFO  Main:42 - Користувач ввів команду: kjg
+2024-04-20 14:42:50 ERROR Main:63 - Помилка: Неправильна команда. Введіть 'help' для виведення списку команд.
+2024-04-20 14:42:52 INFO  Main:42 - Користувач ввів команду: help
+2024-04-20 14:42:58 INFO  Main:42 - Користувач ввів команду: contain
+2024-04-20 14:42:58 INFO  Main:57 - Виконується обробка команди Вміст подарунка
+2024-04-20 14:43:04 INFO  Main:42 - Користувач ввів команду: remove
+2024-04-20 14:43:04 INFO  Main:57 - Виконується обробка команди Вилучити цукерку з подарунка
+2024-04-20 14:43:07 INFO  Main:42 - Користувач ввів команду: 1
+2024-04-20 14:43:07 ERROR Main:63 - Помилка: Неправильна команда. Введіть 'help' для виведення списку команд.
+2024-04-20 14:47:02 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-04-20 14:47:02 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-04-20 14:47:03 WARN  pooling:80 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-04-20 14:47:03 INFO  pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-04-20 14:47:03 INFO  pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/test6?serverTimeZone=UTC]
+2024-04-20 14:47:03 INFO  pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-04-20 14:47:03 INFO  pooling:174 - HHH10001003: Autocommit mode: false
+2024-04-20 14:47:03 INFO  pooling:366 - HHH10001115: Connection pool size: 20 (min=1)
+2024-04-20 14:47:03 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-04-20 14:47:04 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-20 14:47:04 INFO  access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@17ff8810] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-04-20 14:47:06 INFO  Main:42 - Користувач ввів команду: contain
+2024-04-20 14:47:06 INFO  Main:57 - Виконується обробка команди Вміст подарунка
+2024-04-20 14:47:08 INFO  Main:42 - Користувач ввів команду: remoce
+2024-04-20 14:47:08 ERROR Main:63 - Помилка: Неправильна команда. Введіть 'help' для виведення списку команд.
+2024-04-20 14:47:10 INFO  Main:42 - Користувач ввів команду: remove
+2024-04-20 14:47:10 INFO  Main:57 - Виконується обробка команди Вилучити цукерку з подарунка
+2024-04-20 14:47:12 ERROR Main:197 - Помилка видалення цукерки: цукерка з ID 1 не знайдена
+2024-04-20 14:47:12 ERROR Main:198 - Видалення цукерки: цукерка з ID 1 не знайдена
+2024-04-20 14:47:27 INFO  Main:42 - Користувач ввів команду: 2
+2024-04-20 14:47:27 ERROR Main:63 - Помилка: Неправильна команда. Введіть 'help' для виведення списку команд.
+2024-04-20 14:47:32 INFO  Main:42 - Користувач ввів команду: 3
+2024-04-20 14:47:32 ERROR Main:63 - Помилка: Неправильна команда. Введіть 'help' для виведення списку команд.
+2024-04-20 14:47:37 INFO  Main:42 - Користувач ввів команду: remove
+2024-04-20 14:47:37 INFO  Main:57 - Виконується обробка команди Вилучити цукерку з подарунка
+2024-04-20 14:49:59 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-04-20 14:49:59 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-04-20 14:49:59 WARN  pooling:80 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-04-20 14:49:59 INFO  pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-04-20 14:49:59 INFO  pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/test6?serverTimeZone=UTC]
+2024-04-20 14:49:59 INFO  pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-04-20 14:49:59 INFO  pooling:174 - HHH10001003: Autocommit mode: false
+2024-04-20 14:49:59 INFO  pooling:366 - HHH10001115: Connection pool size: 20 (min=1)
+2024-04-20 14:50:00 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-04-20 14:50:00 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-20 14:50:00 INFO  access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@17ff8810] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-04-20 14:50:00 ERROR Main:32 - Сталася помилка
+java.lang.RuntimeException: Тестова помилка: це тільки для перевірки логування та надсилання на пошту
+	at org.example.runner.Main.main(Main.java:29)
+2024-04-20 14:54:22 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-04-20 14:54:22 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-04-20 14:54:23 WARN  pooling:80 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-04-20 14:54:23 INFO  pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-04-20 14:54:23 INFO  pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/test6?serverTimeZone=UTC]
+2024-04-20 14:54:23 INFO  pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-04-20 14:54:23 INFO  pooling:174 - HHH10001003: Autocommit mode: false
+2024-04-20 14:54:23 INFO  pooling:366 - HHH10001115: Connection pool size: 20 (min=1)
+2024-04-20 14:54:23 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-04-20 14:54:24 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-20 14:54:24 INFO  access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@17ff8810] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-04-20 14:54:24 ERROR Main:32 - Сталася помилка
+java.lang.RuntimeException: Тестова помилка: це тільки для перевірки логування та надсилання на пошту
+	at org.example.runner.Main.main(Main.java:29)
+2024-04-20 14:54:26 INFO  Main:51 - Користувач ввів команду: remove
+2024-04-20 14:54:26 INFO  Main:66 - Виконується обробка команди Вилучити цукерку з подарунка
+2024-04-20 14:54:28 ERROR GiftDaoImpl:199 - Помилка видалення цукерки: цукерка з ID 1 не знайдена
+2024-04-20 14:54:28 ERROR GiftDaoImpl:200 - Видалення цукерки: цукерка з ID 1 не знайдена
+2024-04-20 14:59:03 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-04-20 14:59:03 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-04-20 14:59:03 WARN  pooling:80 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-04-20 14:59:03 INFO  pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-04-20 14:59:03 INFO  pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/test6?serverTimeZone=UTC]
+2024-04-20 14:59:03 INFO  pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-04-20 14:59:03 INFO  pooling:174 - HHH10001003: Autocommit mode: false
+2024-04-20 14:59:03 INFO  pooling:366 - HHH10001115: Connection pool size: 20 (min=1)
+2024-04-20 14:59:04 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-04-20 14:59:05 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-20 14:59:05 INFO  access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@17ff8810] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-04-20 14:59:06 INFO  Main:43 - Користувач ввів команду: kjh
+2024-04-20 14:59:06 ERROR Main:64 - Помилка: Неправильна команда. Введіть 'help' для виведення списку команд.
+2024-04-20 15:00:45 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-04-20 15:00:45 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-04-20 15:00:45 WARN  pooling:80 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-04-20 15:00:45 INFO  pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-04-20 15:00:45 INFO  pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/test6?serverTimeZone=UTC]
+2024-04-20 15:00:45 INFO  pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-04-20 15:00:45 INFO  pooling:174 - HHH10001003: Autocommit mode: false
+2024-04-20 15:00:45 INFO  pooling:366 - HHH10001115: Connection pool size: 20 (min=1)
+2024-04-20 15:00:46 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-04-20 15:00:46 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-20 15:00:46 INFO  access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@119290b9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-04-20 15:00:49 INFO  Main:43 - Користувач ввів команду: re
+2024-04-20 15:00:49 ERROR Main:64 - Помилка: Неправильна команда. Введіть 'help' для виведення списку команд.
+2024-04-20 15:03:20 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-04-20 15:03:20 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-04-20 15:03:20 WARN  pooling:80 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-04-20 15:03:20 INFO  pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-04-20 15:03:20 INFO  pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/test6?serverTimeZone=UTC]
+2024-04-20 15:03:20 INFO  pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-04-20 15:03:20 INFO  pooling:174 - HHH10001003: Autocommit mode: false
+2024-04-20 15:03:20 INFO  pooling:366 - HHH10001115: Connection pool size: 20 (min=1)
+2024-04-20 15:03:21 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-04-20 15:03:22 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-20 15:03:22 INFO  access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4dc52559] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-04-20 15:03:24 INFO  Main:43 - Користувач ввів команду: kj
+2024-04-20 15:03:24 ERROR Main:64 - Помилка: Неправильна команда. Введіть 'help' для виведення списку команд.
+2024-04-20 15:08:38 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-04-20 15:08:38 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-04-20 15:08:39 WARN  pooling:80 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-04-20 15:08:39 INFO  pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-04-20 15:08:39 INFO  pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/test6?serverTimeZone=UTC]
+2024-04-20 15:08:39 INFO  pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-04-20 15:08:39 INFO  pooling:174 - HHH10001003: Autocommit mode: false
+2024-04-20 15:08:39 INFO  pooling:366 - HHH10001115: Connection pool size: 20 (min=1)
+2024-04-20 15:08:39 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-04-20 15:08:40 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-20 15:08:40 INFO  access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@119290b9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-04-20 15:08:42 INFO  Main:43 - Користувач ввів команду: kj
+2024-04-20 15:08:42 ERROR Main:64 - Помилка: Неправильна команда. Введіть 'help' для виведення списку команд.
+2024-04-20 15:08:56 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-04-20 15:08:56 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-04-20 15:08:56 WARN  pooling:80 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-04-20 15:08:56 INFO  pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-04-20 15:08:56 INFO  pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/test6?serverTimeZone=UTC]
+2024-04-20 15:08:56 INFO  pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-04-20 15:08:56 INFO  pooling:174 - HHH10001003: Autocommit mode: false
+2024-04-20 15:08:56 INFO  pooling:366 - HHH10001115: Connection pool size: 20 (min=1)
+2024-04-20 15:08:57 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-04-20 15:08:58 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-20 15:08:58 INFO  access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@119290b9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-04-20 15:09:50 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-04-20 15:09:50 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-04-20 15:09:50 WARN  pooling:80 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-04-20 15:09:50 INFO  pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-04-20 15:09:50 INFO  pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/test6?serverTimeZone=UTC]
+2024-04-20 15:09:50 INFO  pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-04-20 15:09:50 INFO  pooling:174 - HHH10001003: Autocommit mode: false
+2024-04-20 15:09:50 INFO  pooling:366 - HHH10001115: Connection pool size: 20 (min=1)
+2024-04-20 15:09:51 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-04-20 15:09:51 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-20 15:09:51 INFO  access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@119290b9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-04-20 19:23:54 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-04-20 19:23:54 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-04-20 19:23:54 WARN  pooling:80 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-04-20 19:23:54 INFO  pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-04-20 19:23:54 INFO  pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/test6?serverTimeZone=UTC]
+2024-04-20 19:23:54 INFO  pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-04-20 19:23:54 INFO  pooling:174 - HHH10001003: Autocommit mode: false
+2024-04-20 19:23:54 INFO  pooling:366 - HHH10001115: Connection pool size: 20 (min=1)
+2024-04-20 19:23:55 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-04-20 19:23:56 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-20 19:23:56 INFO  access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@53d6e959] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-05-03 15:53:02 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-05-03 15:53:02 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-05-03 15:53:02 WARN  pooling:80 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-05-03 15:53:02 INFO  pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-05-03 15:53:02 INFO  pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/test6?serverTimeZone=UTC]
+2024-05-03 15:53:02 INFO  pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-05-03 15:53:02 INFO  pooling:174 - HHH10001003: Autocommit mode: false
+2024-05-03 15:53:02 INFO  pooling:366 - HHH10001115: Connection pool size: 20 (min=1)
+2024-05-03 15:53:02 WARN  JdbcEnvironmentInitiator:244 - HHH000342: Could not obtain connection to query metadata
+java.lang.IllegalStateException: Cannot get a connection as the driver manager is not properly initialized
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.getConnection(DriverManagerConnectionProviderImpl.java:262)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:316)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:152)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:34)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:264)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:239)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:45)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:125)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:248)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.convertSqlException(BasicConnectionCreator.java:121)
+	at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:43)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.createConnection(BasicConnectionCreator.java:61)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.addConnections(DriverManagerConnectionProviderImpl.java:501)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init>(DriverManagerConnectionProviderImpl.java:367)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections$Builder.build(DriverManagerConnectionProviderImpl.java:552)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:105)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:81)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:125)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:248)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:283)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:150)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:34)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:264)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:239)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:230)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:198)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:166)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:125)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:451)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:102)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:910)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:960)
+	at org.example.util.HibernateUtil.initSessionFactory(HibernateUtil.java:14)
+	at org.example.util.HibernateUtil.<clinit>(HibernateUtil.java:7)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:421)
+	at java.base/java.lang.Class.forName(Class.java:412)
+	at org.example.lib.Injector.findClasses(Injector.java:167)
+	at org.example.lib.Injector.findClasses(Injector.java:164)
+	at org.example.lib.Injector.getClasses(Injector.java:138)
+	at org.example.lib.Injector.<init>(Injector.java:21)
+	at org.example.lib.Injector.getInstance(Injector.java:31)
+	at org.example.runner.Main.<clinit>(Main.java:22)
+2024-05-03 15:53:26 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-05-03 15:53:26 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-05-03 15:53:26 WARN  pooling:80 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-05-03 15:53:26 INFO  pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-05-03 15:53:26 INFO  pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/test6?serverTimeZone=UTC]
+2024-05-03 15:53:26 INFO  pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-05-03 15:53:26 INFO  pooling:174 - HHH10001003: Autocommit mode: false
+2024-05-03 15:53:26 INFO  pooling:366 - HHH10001115: Connection pool size: 20 (min=1)
+2024-05-03 15:53:27 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-05-03 15:53:28 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-05-03 15:53:28 INFO  access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@26f0141] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-05-03 16:37:37 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-05-03 16:37:37 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-05-03 16:37:37 WARN  pooling:80 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-05-03 16:37:37 INFO  pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-05-03 16:37:37 INFO  pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/test6?serverTimeZone=UTC]
+2024-05-03 16:37:37 INFO  pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-05-03 16:37:37 INFO  pooling:174 - HHH10001003: Autocommit mode: false
+2024-05-03 16:37:37 INFO  pooling:366 - HHH10001115: Connection pool size: 20 (min=1)
+2024-05-03 16:37:38 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-05-03 16:37:38 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-05-03 16:37:38 INFO  access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@119290b9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
